@@ -17,3 +17,10 @@ function likes(names) {
   if(names.length === 3) return names[0] + ", " + names[1] + " and " + names[2] + " like this";
   return names[0] + ", " + names[1] + " and " + (names.length - 2) + " others like this";
 }
+
+
+add2 = (x) => x + 2;
+add3 = (x) => x + 3;
+add5 = (x) => x + 5;
+add7 = (x) => x + 7;
+add11 = (x) => x + 11;
