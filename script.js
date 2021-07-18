@@ -24,3 +24,21 @@ add3 = (x) => x + 3;
 add5 = (x) => x + 5;
 add7 = (x) => x + 7;
 add11 = (x) => x + 11;
+
+
+////take a 10 min walk
+
+function isValidWalk(walk) {
+    let ns = 0, ew = 0; 
+    if(walk.length === 10){
+      for (let i of walk) { 
+        if (i == 'n') ns += 1; 
+        if (i == 's') ns -= 1; 
+        if (i == 'e') ew += 1; 
+        if (i == 'w') ew -= 1; 
+      } 
+    }
+    else
+      return false
+      return ns === 0 && ew === 0; 
+  }
