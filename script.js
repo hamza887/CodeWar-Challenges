@@ -122,3 +122,17 @@ console.log(minMax([1, 2, 3, 4, 5]))
 
 console.log( minMax([2334454, 5]))
 //  ➞ [5, 2334454]
+
+
+// Only first 3 characters
+
+ function frontThree(str) {
+	const sliceitems= str.slice(0,3).repeat(3);
+   return sliceitems
+}
+
+console.log(frontThree("Python"))
+//  ➞ "PytPytPyt"
+
+console.log(frontThree("Cucumber"))
+//  ➞ "CucCucCuc"
