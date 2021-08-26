@@ -109,3 +109,16 @@ function bouncingBall(h,bounce,w){
 //const bouncingBall=(h, b, w)=>(b>=1 || h<w || b<=0) ? -1 : Math.ceil(Math.log(w/h)/Math.log(b))*2-1;
 bouncingBall(3,0.66,1.5);
 bouncingBall(30, 0.9999999999, 1)
+  /// finding min and max numbers 
+
+	function minMax(arr) {
+	const min= Math.min(...arr);
+  const max= Math.max(...arr);
+   return [min,max]
+}
+
+console.log(minMax([1, 2, 3, 4, 5])) 
+// ➞ [1, 5]
+
+console.log( minMax([2334454, 5]))
+//  ➞ [5, 2334454]
