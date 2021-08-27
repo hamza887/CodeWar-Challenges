@@ -148,3 +148,52 @@ endCorona(4000, 2000, 77000) ➞ 39
 endCorona(3000, 2000, 50699) ➞ 51
 
 endCorona(30000, 25000, 390205) ➞ 79
+
+
+
+function timeForMilkAndCookies(date) {
+	return date.getMonth()===11
+}
+
+console.log(timeForMilkAndCookies(new Date(2013, 11, 24))) 
+// ➞ true
+
+
+//// Largest Number
+
+function whichIsLarger(f, g) {
+	if(f()>g()){
+    return 'f'
+  }else if(f()<g()){
+		return 'g'
+	}else{
+		return 'neither'
+	}
+}
+
+console.log(whichIsLarger(() => 5, () => 10))
+//  ➞ "g"
+
+console.log(whichIsLarger(() => 25,  () => 25)) 
+// ➞ "neither"
+
+
+
+/////WORDS END WITH 
+
+function isPlural(word) {
+	return word.endsWith('s')
+}
+
+
+/////Retun Types
+
+function arrayValuesTypes(arr) {
+	return arr.map(e=> typeof e)
+}
+
+arrayValuesTypes([1, 2, "null", []])
+// ➞ ["number", "number", "string", "object"]
+
+// console.log(arrayValuesTypes(["214", true, false, 2, 2.15, [], null]))
+// ➞ ["string", "boolean", "boolean", "number", "number", "object", "object"]
