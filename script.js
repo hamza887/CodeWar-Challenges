@@ -197,3 +197,10 @@ arrayValuesTypes([1, 2, "null", []])
 
 // console.log(arrayValuesTypes(["214", true, false, 2, 2.15, [], null]))
 // ➞ ["string", "boolean", "boolean", "number", "number", "object", "object"]
+
+
+///// converting array into string
+
+function parseArray(arr) {
+	return arr.map(String);
+}
