@@ -204,3 +204,35 @@ arrayValuesTypes([1, 2, "null", []])
 function parseArray(arr) {
 	return arr.map(String);
 }
+
+function countTrue(arr) {
+	const lengthwords= arr.filter(words=>words===true);
+  return lengthwords
+}
+
+console.log(countTrue([true, false, false, true, false,'hamza','jfjf',false,'false'])) 
+// ➞ 2
+
+console.log(countTrue([false, false, false, false])) 
+// ➞ 0
+
+
+
+///// Sort numbers
+
+function tuckIn(arr1, arr2) {
+	const myValue= arr1.pop();
+  // console.log(myValue);
+  const myArray=arr1.concat(arr2);
+  // console.log(myArray);
+  myArray.push(myValue)
+  return myArray
+}
+
+console.log(tuckIn([1, 10], [2, 3, 4, 5, 6, 7, 8, 9]))
+//  ➞ [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+console.log(tuckIn([15,150], [45, 75, 35])) 
+// ➞ [15, 45, 75, 35, 150]
+
+
