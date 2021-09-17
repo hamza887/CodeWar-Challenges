@@ -309,3 +309,20 @@ console.log(FirstFactorial(8));
 for (let i = 1; i <= n; i++) {
     console.log("#".repeat(i).padStart(n));
 }
+
+//Complete triplets
+
+const completeTriplets=(a,b)=>{
+   let aValue=0;
+   let bvalue=0;
+   for(let i=0;i<a.length;i++){
+     if(a[i]<b[i]){
+       aValue++;
+     }if(a[i]>b[i]){
+       bvalue++
+     }
+   }
+   return [aValue,bvalue]
+}
+
+console.log(completeTriplets([5,6,7],[3,6,10]));
