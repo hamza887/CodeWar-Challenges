@@ -304,3 +304,8 @@ function FirstFactorial(num) {
 // keep this function call here 
 console.log(FirstFactorial(8));
 
+/// If you want to build a # trainagle 
+
+for (let i = 1; i <= n; i++) {
+    console.log("#".repeat(i).padStart(n));
+}
