@@ -326,3 +326,68 @@ const completeTriplets=(a,b)=>{
 }
 
 console.log(completeTriplets([5,6,7],[3,6,10]));
+
+// function flickSwitch(arr) {
+// 		let b = true;
+//   return arr.map(x => x === 'flick'? b=!b:b );
+
+// }
+
+
+
+// console.log(flickSwitch(["edabit", "flick", "eda", "bit"])) 
+// // ➞ [true, false, false, false]
+
+// console.log(flickSwitch(["flick", 11037, 3.14, 53])) 
+// // ➞ [false, false, false, false]
+
+
+
+// function isFirstSuperior(arr1, arr2) {
+// 	for(let i =0; i<=arr1.length && i<=arr2.length;i++){
+//     return arr1!==arr2
+//   }
+// }
+
+// console.log(isFirstSuperior(["a", "d", "c"], ["a", "b", "c"])) 
+// // ➞ true
+// console.log(isFirstSuperior([1, 2, 4], [1, 2, 3])) 
+// // ➞ true
+
+
+// function FirstFactorial(num) { 
+//   let finalNum=1;
+//  for( let i=1;i<=num;i++){
+//    finalNum*=i
+//  }
+//  return finalNum
+
+// }
+   
+// // keep this function call here 
+// console.log(FirstFactorial(8));
+
+//Complete triplets
+
+// const completeTriplets=(a,b)=>{
+//    let aValue=0;
+//    let bvalue=0;
+//    for(let i=0;i<a.length;i++){
+//      if(a[i]<b[i]){
+//        aValue++;
+//      }if(a[i]>b[i]){
+//        bvalue++
+//      }
+//    }
+//    return [aValue,bvalue]
+// }
+
+// console.log(completeTriplets([5,6,7],[3,6,10]));
+
+
+// function staircase(n) {
+//     for (let i = 1; i <= n; i++) {
+//     console.log("#".repeat(i).padStart(n));
+// }
+// }
+//  console.log(staircase(6))
