@@ -8,6 +8,9 @@ function squareDigits(num){
     
   }
 
+
+
+
 ////WHO LIKES IT /////////
 
 function likes(names) {
