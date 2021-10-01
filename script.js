@@ -148,11 +148,11 @@ console.log(frontThree("Cucumber"))
  function endCorona(recovers, newCases, activeCases) {
 	return Math.ceil(activeCases/(recovers-newCases))
 }
-endCorona(4000, 2000, 77000) ➞ 39
+// endCorona(4000, 2000, 77000) ➞ 39
 
-endCorona(3000, 2000, 50699) ➞ 51
+// endCorona(3000, 2000, 50699) ➞ 51
 
-endCorona(30000, 25000, 390205) ➞ 79
+// endCorona(30000, 25000, 390205) ➞ 79
 
 
 
@@ -311,9 +311,9 @@ console.log(FirstFactorial(8));
 
 /// If you want to build a # trainagle 
 
-for (let i = 1; i <= n; i++) {
-    console.log("#".repeat(i).padStart(n));
-}
+// for (let i = 1; i <= n; i++) {
+//     console.log("#".repeat(i).padStart(n));
+// }
 
 //Complete triplets
 
