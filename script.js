@@ -9,6 +9,8 @@ function squareDigits(num){
   }
 
 
+  console.log('hello world`');
+
 
 
 ////WHO LIKES IT /////////
