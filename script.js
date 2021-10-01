@@ -314,7 +314,7 @@ console.log(FirstFactorial(8));
 // for (let i = 1; i <= n; i++) {
 //     console.log("#".repeat(i).padStart(n));
 // }
-
+console.log('helhfldjf');
 //Complete triplets
 
 const completeTriplets=(a,b)=>{
