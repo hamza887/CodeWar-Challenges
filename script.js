@@ -396,3 +396,15 @@ console.log(completeTriplets([5,6,7],[3,6,10]));
 // }
 // }
 //  console.log(staircase(6))
+
+
+
+// how to repeat every word in string
+
+doubleChar = str => [...str].map(v => v+v).join``
+
+doubleChar("String") 
+// ➞ "SSttrriinngg"
+
+doubleChar("Hello World!") 
+// ➞ "HHeelllloo  WWoorrlldd!!"
