@@ -408,3 +408,68 @@ doubleChar("String")
 
 doubleChar("Hello World!") 
 // ➞ "HHeelllloo  WWoorrlldd!!"
+
+
+
+const doubleChar=(n)=>{
+   return [...n].map(h=>h+h).join('');
+}
+
+console.log(doubleChar('hamza'));
+
+// find even num in an array
+
+// const getOnlyEvens=(n)=>{
+//    let arr=[];
+//    for(var i=0;i<n.length;i+=2){
+//      if(n[i]%2==0){
+//        arr.push(n[i])
+//      }
+//    }
+//    return arr
+// }
+
+const getOnlyEvens=(n)=>{
+  return n.filter((a,b)=>(a%2==0&& b%2==0))
+}
+
+
+
+console.log(getOnlyEvens([1, 3, 2, 6, 4, 8]))
+// ➞ [2, 4]
+
+console.log(getOnlyEvens([0, 1, 2, 3, 4]));
+// ➞ [0, 2, 4]
+
+
+
+//how to filter the numbers in an array 
+
+function filterArray(arr) {
+	return arr.filter(aa=> typeof aa=='number')
+}
+
+filterArray([1, 2, "a", "b"])
+//  ➞ [1, 2]
+
+filterArray([1, "a", "b", 0, 15]) 
+// ➞ [1, 0, 15]
+
+
+//how to find vowels in a string and find the length of it 
+
+function countVowels(str) {
+	const regex=/[a,e,i,o,u]/g;
+	const numberLength=str.match(regex).length;
+	return numberLength
+}
+
+//highest number in a number
+
+function highestDigit(number) {
+	const h= number.toString().split('')
+  return Math.max(...h)
+}
+
+console.log(highestDigit(379))
+// 9 is answer
