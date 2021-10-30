@@ -473,3 +473,20 @@ function highestDigit(number) {
 
 console.log(highestDigit(379))
 // 9 is answer
+
+// HOW TO COUNT SAME NUMBERS IN AN ARRAY	
+function birthdayCakeCandles(candles) {
+    let max=0;
+    let Countcandles=0;
+    for(let i=0;i<candles.length;i++){
+        if(max<candles[i]){
+            max=candles[i]
+        }
+    }
+    for(let i=0;i<candles.length;i++){
+        if(max==candles[i]){
+            Countcandles++
+        }
+    }
+    return Countcandles;
+}
