@@ -18,6 +18,9 @@ function set(arr) {
 	}
 	return finalArr;
 }
+//DIFFERENT APPROCAH
+
+// return arr.filter((n, index) => arr.indexOf(n) == index);
 
 set([1, 3, 3, 5, 5]) 
 // ➞ [1, 3, 5]
