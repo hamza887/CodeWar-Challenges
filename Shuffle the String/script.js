@@ -12,4 +12,5 @@ function indexShuffle(str) {
 
 }
 
+
 console.log(indexShuffle("abcdefg"))
