@@ -7,6 +7,8 @@ var addBinary = function(a, b) {
   let bB=BigInt(`0b${b}`)
   let sum= bA+bB
   return sum.toString(2)
+
+  
 };
 
 
